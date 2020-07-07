@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Welcome to the DevConnector</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="dashboard.html">
+                <i class="fa fa-code"></i>
+                DevConnector
+            </a>
+        </h1>
+        <ul>
+            <li><a href="profiles.html">Developers</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="dashboard.html">
+                <i class="fa fa-user"></i>
+                <span class="hide-sm"> Dashboard</span></a></li>
+            <li><a href="login.html">
+                <i class="fa fa-sign-out"></i>
+                <span class="hide-sm"> Logout</span></a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <h1 class="large text-primary">
+            Posts
+        </h1>
+        <p class="lead">
+            <i class="fa fa-user"></i>
+            Welcome to the Community
+        </p>
+
+        <div class="post-form">
+            <div class="post-form-header bg-primary">
+                <h3>Say Something...</h3>
+            </div>
+
+            <form class="form my-1">
+                <textarea placeholder="Create a Post" id="" cols="30" rows="5"></textarea>
+
+                <input type="button" value="Submit" class="btn btn-dark my-1">
+            </form>
+
+            <div class="posts">
+                <div class="post bg-white my-1 p-1">
+                    <div>
+                        <a class="round-img" href="profile.html">
+                            <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" alt="Avatar">
+                            <h4>Solomon Doe</h4>
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="my-1">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis perferendis ex quod facere vero veniam, voluptatum eos iure? Debitis illo accusantium corporis ea impedit est quo eius dolorum? Saepe, totam.
+                        </p>
+                        <button class="btn">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>26</span>
+                        </button>
+                        <button class="btn">
+                            <i class="fa fa-thumbs-down"></i>
+                            <span>3</span>
+                        </button>
+                        <a href="post.html" class="btn btn-primary">Discussion</a>
+                    </div>
+                </div>
+
+                <div class="post bg-white my-1 p-1">
+                    <div>
+                        <a class="round-img" href="profile.html">
+                            <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" alt="Avatar">
+                            <h4>Solomon Doe</h4>
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="my-1">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis perferendis ex quod facere vero veniam, voluptatum eos iure? Debitis illo accusantium corporis ea impedit est quo eius dolorum? Saepe, totam.
+                        </p>
+                        <button class="btn">
+                            <i class="fa fa-thumbs-up"></i>
+                            <span>26</span>
+                        </button>
+                        <button class="btn">
+                            <i class="fa fa-thumbs-down"></i>
+                            <span>3</span>
+                        </button>
+                        <a href="post.html" class="btn btn-primary">Discussion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
